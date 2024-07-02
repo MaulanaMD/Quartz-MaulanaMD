@@ -3,8 +3,7 @@ tags:
   - sintesis
   - catatan
 ---
-
-### Pointers
+## Pointers
 
 Arkeologi Foucault sebagai *Archeology of Thoughts* - bukan mencari tahu **apa** ataupun **bagaimana** pemikiran tertentu bisa terbentuk (konsekuensinya bisa mencari tahu secara deskriptif ataupun kepada pemikiran dari *tokoh* yang membentuk atau mencetuskan pemikiran tersebut), tetapi kepada ***apa saja yang membentuk*** kondisi yang kemudian menghasilkan pemikiran tersebut
 
@@ -21,7 +20,9 @@ Genealogi Foucault mengambil satu langkah maju dari pendekatan yang dilakukan ol
 >  
 >  A final discovery: that the objects of these diverse and specific causes are human bodies. The forces that drive our history do not so much operate on our thoughts, our social institutions, or even our environment as on our individual bodies. So, for example, punishment in the 18th century is a matter of violent assaults on the body: branding, dismemberment, execution, whereas in the 19th century it takes the apparently gentler but equally physical form of incarceration, ordered assemblies, and forced labour. Prisoners are subjected to a highly structured regimen designed to produce ‘docile bodies’. A Foucaultian genealogy, then, is a **historical causal explanation that is material, multiple, and corporeal.**
 
-Dalam pemahamanku, metode analisa ini bisa diaplikasikan tidak hanya kepada *thoughts* atau pemikiran, tetapi juga fenomena - apa yang aku lakukan terhadap analisis [belajar bahasa asing](obsidian://open?vault=Maulana.md-content&file=30%20Kebun%2F33%20Sintesis%2Fbelajar%20bahasa%20asing) berkutat kepada hal seperti ini.
+Dalam pemahamanku, metode analisa ini bisa diaplikasikan tidak hanya kepada *thoughts* atau pemikiran, tetapi juga fenomena - apa yang aku lakukan terhadap analisis [[belajar bahasa asing]] berkutat kepada hal seperti ini.
+
+---
 
 Kalau begitu, *bagaimana analisis seperti ini bisa dikaitkan dengan diplomasi digital, atau yang berkaitan dengan utilisasi media digital oleh masyarakat sehari-hari, alih-alih aktor tingkat negara?*
 
@@ -30,6 +31,19 @@ Kalau begitu, *bagaimana analisis seperti ini bisa dikaitkan dengan diplomasi di
 
 Pertanyaan paling sederhana yang terbesit adalah, *"apa pentingnya keberadaan kelompok seperti SAFEnet di Asia Tenggara?"*. Jawaban singkatnya bisa dibilang terasa *obvious*: untuk melindungi hak dan kebebasan aktivitas di dunia maya, seperti yang disebutkan di dalam aktivitas SAFEnet itu sendiri.
 
+Pertanyaan paling sederhana yang terbesit adalah, *"apa pentingnya keberadaan kelompok seperti SAFEnet di Asia Tenggara?"*. Jawaban singkatnya bisa dibilang terasa *obvious*: untuk melindungi hak dan kebebasan aktivitas di dunia maya, seperti yang disebutkan di dalam aktivitas SAFEnet itu sendiri.
+
 Dalam hal ini, arkeologi dan genealogi terkait topik ini bisa masuk lewat pertanyaan yang lebih mendasar: **kenapa hal ini perlu ada?**
 
 Satu hal yang masih perlu diperhatikan adalah mencari atau menjabarkan jembatan dari diplomasi digital, yang secara mentah-mentah berurusan dengan aktor tingkat negara ataupun organisasional, dengan pengaruhnya kepada masyarakat umum.
+
+---
+
+Foucault mengidentifikasi dua manifestasi Kuasa: Yuridis dan Disipliner.
+
+> [!quote] Gerd Christensen - Three concepts of power: Foucault, Bourdieu, and Habermas - *Foucault: Disciplinary power and discourse*
+> The juridical model is characterized by the following: (1) power is possessed (by individuals, a social class, the citizens etc.), (2) power flows from a central source from the top to the bottom (from the juridical system, the economy, the state etc.), and (3) when power is exercised, it is primarily repressive (e.g., as a ban supported by sanctions). In other words, the juridical model is by far equal to the conceptualization of power that lies in the Western philosophy of consciousness as well as in dialectical materialism—and not least in our everyday conceptualization of power.
+> 
+> The disciplinary model relates to a completely different form of power, a generative power, which in many ways can be claimed to be negatively defined in relation to the juridicial model. It is thus characterized by the following: (1) power is exercised rather than possessed, that is, it consists of action upon acctions, (2) power is analyzed as something that can descend from the bottom and move upwards, that is, it is not conditioned by the sovereign but by discourse, and (3) power is not primarily repressive but productive, that is , it produces the subjects who submitted to their own subjectivity.
+
+Dalam hal ini, analisis terhadap apa yang mengancam *freedom of expression* di Indonesia bisa dilihat sebagai upaya mempertahankan status quo di masa setelah reformasi/revolusi - dalam upaya menjaga stabilitas (ini bisa diganti ke istilah yang lebih spesifik lagi), langkah disipliner dilakukan kepada mereka yang berpotensi merusak stabilitas tersebut. Model kuasa Foucault bisa menjelaskan kenapa, pada akhirnya, bukan pemegang kekuasaan di tingkat paling tinggi (pemerintah, misalnya, sebagai pihak yang paling memiliki kepentingan terhadap stabilitas tersebut) yang berusaha menjaga status tersebut, tetapi malah pemegang kekuasaan lain (i.e. universitas ataupun instansi kerja).

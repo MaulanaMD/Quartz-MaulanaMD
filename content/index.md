@@ -29,7 +29,7 @@ Sekarang konfigurasi laman ini sudah selesai disiapkan, termasuk untuk fitur [RS
 
 Kalau tertarik dengan tulisan-tulisan di sini dan ingin mendukung kegiatan ini (atau kegiatanku yang lainnya), mungkin bisa memberikan [[Pengumuman Trakteer|dukungan]] sedikit-banyak melalui [Trakteer](https://trakteer.id/maulana-md). Untuk hal ini, aku ucapkan terima kasih banyak.
 
-Selain itu, aku juga membuka komisi terkait penerjemahan dan cek kebahasaan, yang bisa dilihat di [[11.01 Komisi Penerjemahan]].
+Selain itu, aku juga membuka komisi terkait penerjemahan dan cek kebahasaan, yang bisa dilihat di [[11.02 Komisi Penerjemahan dan Penulisan]].
 
 ## Mulai Menjelajah
 
@@ -42,7 +42,7 @@ Selain itu, aku juga membuka komisi terkait penerjemahan dan cek kebahasaan, yan
 
 ### Komisi
 
-- [[11.01 Komisi Penerjemahan]]
+- [[11.02 Komisi Penerjemahan dan Penulisan]]
 
 ### Kategori Laman (via `tags`)
 

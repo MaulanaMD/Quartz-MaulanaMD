@@ -1,8 +1,6 @@
 ---
 tags:
   - konsep
-aliases:
-  - narrative consumption
 ---
 Sumber: [World and Variation: The Reproduction and Consumption of Narrative](https://www.researchgate.net/publication/236830699_World_and_Variation_The_Reproduction_and_Consumption_of_Narrative), *Eiji Ōtsuka*, diterjemahkan oleh *Marc Steinberg*.
 

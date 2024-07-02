@@ -8,7 +8,7 @@ Mengutip [wikipedia](https://en.m.wikipedia.org/wiki/Hyperreality):
 
 >  (Hyperreality is) ...process of the evolution of notions of reality, leading to a cultural state of confusion between signs and symbols invented to stand in for reality, and direct perceptions of consensus reality.
 
-Dalam kata lain, pergeseran dari persepsi atas [[simbol (pos-strukturalisme)|simbol]] (yang merupakan konsep di dalam pos-strukturalisme) dan keberadaannya di dalam realita yang dipersepsikan. Batas antara apa yang nyata (dalam hal ini, realita, kehidupan sehari-hari) dan yang tidak nyata (fiksi, yang bisa mencakup apa saja, tapi seringkali dikaitkan kepada media yang dikonsumsi) menjadi buram, sampai-sampai batas antara keduanya menjadi hilang.
+Dalam kata lain, pergeseran dari persepsi atas [[todo-simbol (pos-strukturalisme)|simbol]] (yang merupakan konsep di dalam pos-strukturalisme) dan keberadaannya di dalam realita yang dipersepsikan. Batas antara apa yang nyata (dalam hal ini, realita, kehidupan sehari-hari) dan yang tidak nyata (fiksi, yang bisa mencakup apa saja, tapi seringkali dikaitkan kepada media yang dikonsumsi) menjadi buram, sampai-sampai batas antara keduanya menjadi hilang.
 
 J. Baudrillard mendefinisikan *hyperreality* sebagai *"the generation by models of a real without origin or reality"*.
 

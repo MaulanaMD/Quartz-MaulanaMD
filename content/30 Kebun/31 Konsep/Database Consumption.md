@@ -1,8 +1,6 @@
 ---
 tags:
   - konsep
-aliases:
-  - database consumption
 ---
 Dari [wikipedia](https://en.wikipedia.org/wiki/Database_consumption):
 
@@ -15,4 +13,4 @@ Sederhananya, daripada berfokus kepada narasi, *worldbuilding*, ataupun aspek-as
 
 > While narrative consumption could be seen as fabricating pseudo-"grand narratives" with worldviews behind works to compensate for the lost grand narrative (partial postmodernism), in database consumption, however, even fabrication is abandoned (full postmodernism). Therefore, in (full) postmodern otaku culture, by accessing the database (stacks of information) that varies depending on personal interpretations, various settings are extracted by different people to create different original and derivative works (indistinguishable between originals and copies).
 
-See also: [[Simulacra]], [[Hyperreality]], [[Postmodernism]]
+See also: [[todo-Simulacra]], [[Hyperreality]], [[todo-Postmodernism]]

@@ -10,4 +10,4 @@ Langkah pertama untuk berangkat keluar dari kesalahan adalah *acceptance*. [[nri
 
 Langkah selanjutnya adalah berkaca kepada kesalahan tersebut. *Review*. Secara konstruktif. Bukan karena semua hal perlu untuk dilihat secara konstruktif, tapi karena *ini* perlu dilihat secara konstruktif. *Find the fault,* tapi bukan untuk menyalahkan, tetapi untuk mencari apa penyebabnya dan bagaimana bisa menghindarinya ke depan. Komunikasi, terutama ketika kesalahan ini melibatkan lebih dari satu orang (diri sendiri), jadi penting di sini.
 
-Apa yang ditulis di atas menjadi sebuah tantangan tersendiri ketika diri dalam kondisi [[depresif]] ataupun tidak dalam kondisi mental yang benar-benar baik. *But it needs to be done.*
+Apa yang ditulis di atas menjadi sebuah tantangan tersendiri ketika diri dalam kondisi [[todo-depresif]] ataupun tidak dalam kondisi mental yang benar-benar baik. *But it needs to be done.*
