@@ -10,6 +10,7 @@ tags:
 
 ## Highlight Artikel
 
+- [[sekularisasi]] - Entri `pemikiran` dari digital garden yang mengangkat pergeseran nilai kepercayaan religius di masyarakat.
 - [[belajar bahasa asing]] - Komentar seputar kenapa belajar bahasa asing rasanya sulit digalakkan di khalayak umum Indonesia. Bisa diaplikasikan kepada banyak hal, selama terkait dengan belajar.
 - [[Berkebun di Internet|Seputar Digital Gardening]] - Komentar seputar konsep *digital gardening* dan hubungannnya dengan laman web ini.
 - [[Menyikapi Depresi|Bagaimana Menyikapi Depresi, dan Beberapa Arahan Seputar Bagaimana Mengatasinya]] - Opini dan testimoni singkat seputar bagaimana menyikapi dan menangani depresi.
