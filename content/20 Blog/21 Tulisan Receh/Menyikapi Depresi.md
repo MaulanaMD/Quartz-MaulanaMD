@@ -1,9 +1,7 @@
 ---
-title: Bagaimana Menyikapi Depresi, dan Beberapa Arahan Seputar Bagaimana Mengatasinya
+title: Bagaimana Menyikapi Depresi
 tags:
   - opini
-  - kesehatan-mental
-  - self-help
 ---
 ![[Banner Thumbs Up.webp]]
 

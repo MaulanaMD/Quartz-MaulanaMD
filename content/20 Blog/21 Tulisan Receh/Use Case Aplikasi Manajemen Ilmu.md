@@ -1,8 +1,7 @@
 ---
 title: Bagaimana Aku Menggunakan Aplikasi Manajemen Ilmu Saat Ini
 tags:
-  - blog/lainnya
-  - manajemen-ilmu
+  - blog
 ---
 ![[Main-Image.png]]
 

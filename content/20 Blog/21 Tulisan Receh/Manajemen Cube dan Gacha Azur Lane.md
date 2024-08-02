@@ -1,8 +1,7 @@
 ---
 title: Manajemen Cube dan Gacha Azur Lane
 tags:
-  - blog/lainnya
-  - azur-lane
+  - game-article
 ---
 *Tulisan ini dibuat untuk post kolase gambar diskusi tentang manajemen cube Azur Lane di **Azur Lane Indonesia Community**. Aku memutuskan untuk memasang ini di blog sekalian karena why not.*
 

@@ -1,8 +1,7 @@
 ---
 title: Pindahan Blog dan Portofolio ke Quartz
 tags:
-  - blog/lainnya
-  - quartz
+  - blog
 ---
 Halo, ini adalah tulisan baru pertama di website yang dibangun menggunakan [Quartz](https://quartz.jzhao.xyz/).
 

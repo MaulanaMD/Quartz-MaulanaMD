@@ -2,7 +2,6 @@
 title: Sekarang Sudah Punya Trakteer!
 tags:
   - blog
-  - trakteer
   - pengumuman
 ---
 ![[Banner Trakteer.png]]

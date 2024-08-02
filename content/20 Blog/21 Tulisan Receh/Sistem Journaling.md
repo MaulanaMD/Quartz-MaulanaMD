@@ -1,12 +1,8 @@
 ---
 title: "Sistem Journaling: Dari yang Simpel Hingga yang Rumit"
 tags:
-  - blog/lainnya
-  - journal
-  - self-help
+  - blog
 ---
-![[Banner Sistem Journal.webp]]
-
 Ada dua hal yang membuatku ingin menulis soal sistem journaling. Impetus utamanya sih post ufal seputar gimana dia sekarang menggunakan bullet journaling yang bisa dibaca [di sini](https://blog.ufal.my.id/artikel/bullet-journaling/). Selain itu, ada perubahan yang cukup berarti dari sistem journaling/tasking yang aku pakai sekarang, to the point sampai bisa dibuatkan artikel baru. Detail dari bagaimana perubahan itu bakal dimasukkan ke addendum artikel [[Use Case Aplikasi Manajemen Ilmu|Bagaimana Aku Menggunakan Aplikasi Manajemen Ilmu Saat Ini]].
 
 Artikel ini kurang lebih saduran dari berbagai artikel serupa ataupun video youtube terkait journaling, dalam bahasaku sendiri. Sumberdaya terkait yang bisa dibuka jika ingin mendalami lebih lanjut seputar journaling akan aku taruh di bagian paling akhir, ataupun ketika menjadi relevan.

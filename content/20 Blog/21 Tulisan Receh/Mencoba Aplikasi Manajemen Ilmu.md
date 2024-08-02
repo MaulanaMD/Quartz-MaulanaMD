@@ -1,8 +1,7 @@
 ---
 title: Saya Mencoba Aplikasi Tulis Menulis dan Manajemen Ilmu
 tags:
-  - blog/lainnya
-  - manajemen-ilmu
+  - blog
 ---
 First thing first.
 

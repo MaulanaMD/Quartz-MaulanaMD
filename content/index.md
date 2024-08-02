@@ -10,12 +10,13 @@ tags:
 
 ## Highlight Artikel
 
-- [[sekularisasi]] - Entri `pemikiran` dari digital garden yang mengangkat pergeseran nilai kepercayaan religius di masyarakat.
-- [[belajar bahasa asing]] - Komentar seputar kenapa belajar bahasa asing rasanya sulit digalakkan di khalayak umum Indonesia. Bisa diaplikasikan kepada banyak hal, selama terkait dengan belajar.
-- [[Berkebun di Internet|Seputar Digital Gardening]] - Komentar seputar konsep *digital gardening* dan hubungannnya dengan laman web ini.
-- [[Menyikapi Depresi|Bagaimana Menyikapi Depresi, dan Beberapa Arahan Seputar Bagaimana Mengatasinya]] - Opini dan testimoni singkat seputar bagaimana menyikapi dan menangani depresi.
+- [[Pomodoro]] - Blog post terkait refleksi pengalaman menggunakan metode pomodoro lagi setelah sekian lama - Bisa juga diakses di blog [paper.wf](https://paper.wf/maulanamd/pomodoro-is-quite-good-actually).
+- [[sekularisasi]] - Entri `pemikiran`  yang mengangkat pergeseran nilai kepercayaan religius di masyarakat.
+- [[belajar bahasa asing]] - Entri `sintesis` seputar kenapa belajar bahasa asing rasanya sulit digalakkan di khalayak umum Indonesia. Bisa diaplikasikan kepada banyak hal, selama terkait dengan belajar.
+- [[Berkebun di Internet]] - Komentar seputar konsep *digital gardening* dan hubungannnya dengan laman web ini.
+- [[Menyikapi Depresi]] - Opini dan testimoni singkat seputar bagaimana menyikapi dan menangani depresi.
 - [[Pengingat Untuk Backup|Backup, Backup, Backup!]] - Sebuah pengingat untuk membackup data penting anda, dari anekdot pribadi.
-- [[Sistem Journaling|Sistem Journaling: Dari yang Simpel Hingga yang Rumit]] - Rangkuman bagaimana untuk memulai menjurnal dengan mudah. Intinya, nggak usah dibuat ribet.
+- [[Sistem Journaling]] - Rangkuman bagaimana untuk memulai menjurnal dengan mudah. Intinya, nggak usah dibuat ribet.
 - [[You Can't Put Your Egg into Two Basket at the Same Time]] - Sebuah pengamatan etos atau motto hidup, bahwa fokus satu-per-satu akan target ataupun masalah hidup lebih baik daripada berhenti di tempat.
 
 ---
@@ -31,6 +32,8 @@ Sekarang konfigurasi laman ini sudah selesai disiapkan, termasuk untuk fitur [RS
 Kalau tertarik dengan tulisan-tulisan di sini dan ingin mendukung kegiatan ini (atau kegiatanku yang lainnya), mungkin bisa memberikan [[Pengumuman Trakteer|dukungan]] sedikit-banyak melalui [Trakteer](https://trakteer.id/maulana-md). Untuk hal ini, aku ucapkan terima kasih banyak.
 
 Selain itu, aku juga membuka komisi terkait penerjemahan dan cek kebahasaan, yang bisa dilihat di [[11.02 Komisi Penerjemahan dan Penulisan]].
+
+Aktivitas blogging bisa diakses di laman blog **paper.wf**, layanan blog terfederasi ActivityPub yang dibuat menggunakan *writefreely*. Kalian bisa mengakses laman blognya di [sini](https://paper.wf/maulanamd). Artikel blog yang ada di sini akan difungsikan sebagai mirror/arsip, dan kedepannya akan diusahakan memiliki isi yang sama.
 
 ## Mulai Menjelajah
 

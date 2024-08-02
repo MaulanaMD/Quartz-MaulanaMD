@@ -1,12 +1,7 @@
 ---
-title: Seputar Digital Gardening
 tags:
-  - blog/lainnya
-  - menulis
+  - blog
 ---
-![[Digital Garden.webp]]
-> Kalau yang ini kebun beneran.
-
 Tulisan ini berkutat seputar konsep ***[Digital Gardening](https://jzhao.xyz/posts/networked-thought)*** yang ditulis oleh **jzhao**, kreator Quartz. Sekaligus seputar bagaimana penulisan "artikel" laman web ini kedepannya.
 
 ---

@@ -1,8 +1,7 @@
 ---
 title: Backup, Backup, Backup!
 tags:
-  - blog/lainnya
-  - teknologi
+  - blog
 ---
 ![[Banner Backup.webp]]
 > waktu install ulang kemarin - *debian masterrace*
