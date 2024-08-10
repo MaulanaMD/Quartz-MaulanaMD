@@ -56,6 +56,7 @@ Aktivitas blogging bisa diakses di laman blog **paper.wf**, layanan blog terfede
 - `#portofolio` untuk unggahan *portfolio* pribadi.
 - `#publikasi` untuk publikasi ilmiah yang pernah aku lakukan.
 - `#konsep`, `#pemikiran`, dan `#sintesis` untuk entri *digital garden*.
+- `#journal` untuk entri jurnal harian. ***(baru!)***
 
 Selain itu, kamu bisa juga mencari artikel dengan kata kunci yang diinginkan.
 
