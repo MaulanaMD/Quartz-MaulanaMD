@@ -2,6 +2,7 @@
 tags:
   - blog
 draft: "true"
+title: '"Aspiring" Creator'
 ---
 Impetus dibuatnya tulisan ini adalah cuplikan dari Dropped Frames Podcast Episode 396, secara spesifik cuplikan dari Shorts [ini](https://youtube.com/shorts/pdYPO8-YQUU?si=ljFlEwAX9vIABFYC). Aku belum dengerin keseluruhan episode podcastnya (cuma nonton cuplikan-cuplikan yang terlewat waktu scrolling shorts), tapi isinya guest episode bersama Thor dari Pirate Software, yang banyak orang sebut sebagai *Bob Ross-nya Programming*.
 
