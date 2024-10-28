@@ -1,9 +1,6 @@
 ---
-title: You Can't Put Your Egg Into Two Basket at the Same Time
 tags:
-  - "#blog/lainnya"
-  - etos-hidup
-  - self-help
+  - blog
 ---
 ![[Banner Telur.webp]]
 > Ga punya foto bagus buat artikel ini, jadi difoto saja lah meja waktu ngerjakan artikel ini.
