@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9a2805b524583f94","type":"file","file":"00 Meta/08 Temporary/Research/Pos-struk/Pos-strukturalisme dan kegagalan ASEAN dalam resolusi konflik Rohingya.md","x":-360,"y":-560,"width":400,"height":400},
+		{"id":"ec1ea881ac0f1944","type":"file","file":"00 Meta/08 Temporary/Research/Pos-struk/Poststructuralism in IR.md","x":-660,"y":-40,"width":400,"height":400},
+		{"id":"6e55b9b9a27d604c","x":200,"y":-880,"width":400,"height":400,"type":"file","file":"00 Meta/08 Temporary/Blog Stuffs/perbedaan pos-strukturalisme dan teoris konspirasi.md"}
+	],
+	"edges":[
+		{"id":"4c7f378eafcc229d","fromNode":"9a2805b524583f94","fromSide":"bottom","toNode":"ec1ea881ac0f1944","toSide":"top"},
+		{"id":"65862beb279447b3","fromNode":"9a2805b524583f94","fromSide":"right","toNode":"6e55b9b9a27d604c","toSide":"bottom"}
+	]
+}

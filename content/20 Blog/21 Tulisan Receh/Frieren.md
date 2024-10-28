@@ -2,6 +2,7 @@
 tags:
   - blog
 title: Frieren, Existentialism, and Legacy
+draft: "true"
 ---
 # Frieren, Existentialism, and Legacy
 
