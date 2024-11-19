@@ -8,16 +8,19 @@ tags:
 
 ---
 
-## Highlight Artikel
+## 10 Artikel Terbaru
 
-- [[Pomodoro]] - Blog post terkait refleksi pengalaman menggunakan metode pomodoro lagi setelah sekian lama - Bisa juga diakses di blog [paper.wf](https://paper.wf/maulanamd/pomodoro-is-quite-good-actually).
-- [[sekularisasi]] - Entri `pemikiran`  yang mengangkat pergeseran nilai kepercayaan religius di masyarakat.
-- [[belajar bahasa asing]] - Entri `sintesis` seputar kenapa belajar bahasa asing rasanya sulit digalakkan di khalayak umum Indonesia. Bisa diaplikasikan kepada banyak hal, selama terkait dengan belajar.
-- [[Berkebun di Internet]] - Komentar seputar konsep *digital gardening* dan hubungannnya dengan laman web ini.
-- [[Menyikapi Depresi]] - Opini dan testimoni singkat seputar bagaimana menyikapi dan menangani depresi.
-- [[Pengingat Untuk Backup|Backup, Backup, Backup!]] - Sebuah pengingat untuk membackup data penting anda, dari anekdot pribadi.
-- [[Sistem Journaling]] - Rangkuman bagaimana untuk memulai menjurnal dengan mudah. Intinya, nggak usah dibuat ribet.
-- [[You Can't Put Your Egg into Two Basket at the Same Time]] - Sebuah pengamatan etos atau motto hidup, bahwa fokus satu-per-satu akan target ataupun masalah hidup lebih baik daripada berhenti di tempat.
+1. [[Aplikasi Manajemen Pengetahuan - Main|Aplikasi Manajemen Pengetahuan]] - Ulasan pribadi terkait aplikasi [manajemen pengetahuan](https://en.wikipedia.org/wiki/Knowledge_management). Saat ini baru terisi tentang [[Notion]].
+2. [[Pomodoro]] - Blog post terkait refleksi pengalaman menggunakan metode pomodoro lagi setelah sekian lama - Bisa juga diakses di blog [paper.wf](https://paper.wf/maulanamd/pomodoro-is-quite-good-actually).
+3. [[sekularisasi]] - Entri `pemikiran`  yang mengangkat pergeseran nilai kepercayaan religius di masyarakat.
+4. [[belajar bahasa asing]] - Entri `sintesis` seputar kenapa belajar bahasa asing rasanya sulit digalakkan di khalayak umum Indonesia. Bisa diaplikasikan kepada banyak hal, selama terkait dengan belajar.
+5. [[Berkebun di Internet]] - Komentar seputar konsep *digital gardening* dan hubungannnya dengan laman web ini.
+6. [[Menyikapi Depresi]] - Opini dan testimoni singkat seputar bagaimana menyikapi dan menangani depresi.
+7. [[Pengingat Untuk Backup|Backup, Backup, Backup!]] - Sebuah pengingat untuk membackup data penting anda, dari anekdot pribadi.
+8. [[Sistem Journaling]] - Rangkuman bagaimana untuk memulai menjurnal dengan mudah. Intinya, nggak usah dibuat ribet.
+9. [[You Can't Put Your Egg into Two Basket at the Same Time]] - Sebuah pengamatan etos atau motto hidup, bahwa fokus satu-per-satu akan target ataupun masalah hidup lebih baik daripada berhenti di tempat.
+
+Entri Jurnal dapat diakses dengan tags #journal .
 
 ---
 
@@ -62,6 +65,6 @@ Selain itu, kamu bisa juga mencari artikel dengan kata kunci yang diinginkan.
 
 ### Catatan Lain
 
-Jika menggunakan desktop dan memiliki layar dengan resolusi standar ataupun rendah, sangat disarankan untuk mengubah pengaturan zoom ke 90-80%, untuk mengubah mode tampilan laman dari mobile ke desktop. Dengan begini, tambahan fitur menjelajah seperti `Explorer` dan `Table of Contents` di bagian samping laman bisa muncul.
+~~Jika menggunakan desktop dan memiliki layar dengan resolusi standar ataupun rendah, sangat disarankan untuk mengubah pengaturan zoom ke 90-80%, untuk mengubah mode tampilan laman dari mobile ke desktop. Dengan begini, tambahan fitur menjelajah seperti `Explorer` dan `Table of Contents` di bagian samping laman bisa muncul.~~ Update versi terbaru quartz sudah menempatkan sidebar secara permanen di bagian kiri laman.
 
-Laman Pinandhita 論理型 (dibaca *Ronrigata*) sekarang dapat diakses di https://www.pinandhitaronrigata.my.id, yang sama-sama dibangun dengan menggunakan Quartz, seperti laman pribadi ini. Perlu dicatat bahwa konfigurasi dan beberapa laman penting masih belum disiapkan. Targetnya dalam setidaknya dua bulan kedepan (Juli-Agustus) semua fitur lama web sudah bisa diakses, paling tidak untuk yang berbahasa Inggris.
+Laman Pinandhita 論理型 (dibaca *Ronrigata*) sekarang dapat diakses di https://www.pinandhitaronrigata.my.id, yang sama-sama dibangun dengan menggunakan Quartz, seperti laman pribadi ini. ~~Perlu dicatat bahwa konfigurasi dan beberapa laman penting masih belum disiapkan. Targetnya dalam setidaknya dua bulan kedepan (Juli-Agustus) semua fitur lama web sudah bisa diakses, paling tidak untuk yang berbahasa Inggris.~~
