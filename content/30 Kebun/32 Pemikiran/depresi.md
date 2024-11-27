@@ -15,6 +15,7 @@ Also, this will be added from time to time, as per the definition of a digital g
 ## What to think when you feel depressed
 
 - If you feel like shit for any kind of reason that you appoint to yourself (stuck on your bed and not wanting to get up, unable to accomplish something, feeling stuck in what you did for today, the past few days or even months), remember that you have the opportunity to try again tomorrow. The feeling might not stop today or tomorrow, but remember that you have the option to fight it anyway.
+    - Also, be patient with yourself. There’s no point in beating up yourself even more.
 
 ---
 
@@ -42,6 +43,10 @@ Also, this will be added from time to time, as per the definition of a digital g
 
 - Continuation from the previous point: All goals are worthy of recognition, and all successes are worthy of celebration, no matter how small it is. When you achieve a goal, do your best to recognize it. Extrinsic motivation is a powerful thing, it will keep you going as long as you think you did it genuinely.
     - If you thought you’re lowballing it, perhaps feeling that you intentionally pick easy things to do again and again and you feel bad from doing so, then weaponize that feeling. The thought might came out because your mind doesn’t feel satisfied anymore with the tasks that you’ve done, and it’s time to step up, be it from doing more or doing what you feel a little bit harder—if so, then set a time beforehand to recognize that it is harder than what you’ve done recently and think about how to do it step by step (e.g. breaking it down into smaller tasks).
+
+---
+
+- Don’t frame the advice above to be “Don’t be not productive when you’re feeling down”; trying to think that what you feels are validated in terms of productivity (something along the lines of “I won’t be a deadbeat if I can be useful to the society”) in the context of depression is putting the cart before the horse—you’re putting the priorities in the wrong order. If your daily life is usually a productive one and you feel down for one reason or another on some days, prioritize in getting yourself fixed up and ready first before you can be productive as usual. If you’re on a long slump, the priority is still the same: Fix yourself first so you can be the best version of what you think you are, or achieve the best potential that you can be.
 
 ## Sources
 
