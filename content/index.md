@@ -30,7 +30,7 @@ Entri Jurnal dapat diakses dengan tag `#journal`.
 
 Ini adalah laman web pribadi dari Maulana Muhammad Diansyahbani, yang juga menggunakan alias Mei/Thea di internet. Silahkan menganggap laman web ini sebagai kurasi [[menulis|tulisan-tulisan]] yang kuunggah di web. [Quartz](https://quartz.jzhao.xyz/), sistem yang kugunakan untuk membangun laman web ini, menggunakan istilah *[[Berkebun di Internet|Digital Garden]]*, dengan pengandaian berupa kebun ide dan pemikiran yang dirawat dan dikembangkan di ruang digital - kali ini dibuat di jejaring internet.
 
-Ada [[Pindahan ke Quartz|dua tujuan utama laman web ini dibuat]]. Pertama adalah laman pribadi dimana aku bisa mengunggah tulisan-tulisan seperti blog dengan mudah. Tujuan lainnya adalah membuat tempat dimana akses persona publik yang aku tempatkan di internet dapat diakses dengan cepat - termasuk portofolio, [[01.01 Tentang Saya#Kontak|akses cepat kontak publik]], dan lain-lain.
+Ada [[Pindahan ke Quartz|dua tujuan utama laman web ini dibuat]]. Pertama adalah laman pribadi dimana aku bisa mengunggah tulisan-tulisan seperti blog dengan mudah. Tujuan lainnya adalah membuat tempat dimana akses persona publik yang aku tempatkan di internet dapat diakses dengan cepat - termasuk portofolio, [[01.01 Tentang#Kontak|akses cepat kontak publik]], dan lain-lain.
 
 Sekarang konfigurasi laman ini sudah selesai disiapkan, termasuk untuk fitur [RSS](https://maulanamd.my.id/index.xml).
 
@@ -44,7 +44,7 @@ Aktivitas blogging bisa diakses di laman blog **paper.wf**, layanan blog terfede
 
 ### Pranala Laman Penting
 
-- [[01.01 Tentang Saya]]
+- [[01.01 Tentang]]
 - [[01.02 Curriculum Vitae]]
 - [[01.03 Sedang Apa]]
 - [[01.04 Pranala Laman Keren]]
