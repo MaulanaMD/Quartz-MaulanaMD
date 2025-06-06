@@ -8,21 +8,9 @@ tags:
 
 ---
 
-## 10 Artikel Terbaru
+# Highlights
 
-> [!list]- Artikel terbaru - Klik untuk membuka daftar
-> 1. [[depresi|depresi/depression]] - Artikel berbahasa inggris. One-stop-notes for what to remember when you feel depressed.
-> 2. [[Aplikasi Manajemen Pengetahuan - Main|Aplikasi Manajemen Pengetahuan]] - Ulasan pribadi terkait aplikasi [manajemen pengetahuan](https://en.wikipedia.org/wiki/Knowledge_management). Saat ini baru terisi tentang [[Notion]].
-> 3. [[Pomodoro]] - Blog post terkait refleksi pengalaman menggunakan metode pomodoro lagi setelah sekian lama - Bisa juga diakses di blog [paper.wf](https://paper.wf/maulanamd/pomodoro-is-quite-good-actually).
-> 4. [[sekularisasi]] - Entri `pemikiran`  yang mengangkat pergeseran nilai kepercayaan religius di masyarakat.
-> 5. [[belajar bahasa asing]] - Entri `sintesis` seputar kenapa belajar bahasa asing rasanya sulit digalakkan di khalayak umum Indonesia. Bisa diaplikasikan kepada banyak hal, selama terkait dengan belajar.
-> 6. [[Berkebun di Internet]] - Komentar seputar konsep *digital gardening* dan hubungannnya dengan laman web ini.
-> 7. [[Menyikapi Depresi]] - Opini dan testimoni singkat seputar bagaimana menyikapi dan menangani depresi.
-> 8. [[Pengingat Untuk Backup|Backup, Backup, Backup!]] - Sebuah pengingat untuk membackup data penting anda, dari anekdot pribadi.
-> 9. [[Sistem Journaling]] - Rangkuman bagaimana untuk memulai menjurnal dengan mudah. Intinya, nggak usah dibuat ribet.
-> 10. [[You Can't Put Your Egg into Two Basket at the Same Time]] - Sebuah pengamatan etos atau motto hidup, bahwa fokus satu-per-satu akan target ataupun masalah hidup lebih baik daripada berhenti di tempat.
-
-Entri Jurnal dapat diakses dengan tag `#journal`.
+- [[End of 10]]
 
 ---
 
