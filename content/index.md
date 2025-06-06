@@ -58,6 +58,3 @@ Selain itu, kamu bisa juga mencari artikel dengan kata kunci yang diinginkan.
 ~~Jika menggunakan desktop dan memiliki layar dengan resolusi standar ataupun rendah, sangat disarankan untuk mengubah pengaturan zoom ke 90-80%, untuk mengubah mode tampilan laman dari mobile ke desktop. Dengan begini, tambahan fitur menjelajah seperti `Explorer` dan `Table of Contents` di bagian samping laman bisa muncul.~~ Update versi terbaru quartz sudah menempatkan sidebar secara permanen di bagian kiri laman, yang tertinggal hanya `Table of Contents` yang baru keluar jika sidebar kanan ikut keluar.
 
 Laman Pinandhita 論理型 (dibaca *Ronrigata*) sekarang dapat diakses di https://www.pinandhitaronrigata.my.id, yang sama-sama dibangun dengan menggunakan Quartz, seperti laman pribadi ini. ~~Perlu dicatat bahwa konfigurasi dan beberapa laman penting masih belum disiapkan. Targetnya dalam setidaknya dua bulan kedepan (Juli-Agustus) semua fitur lama web sudah bisa diakses, paling tidak untuk yang berbahasa Inggris.~~
-
-
-aaa
