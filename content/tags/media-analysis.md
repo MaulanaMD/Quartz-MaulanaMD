@@ -1,0 +1,1 @@
+Salah satu aspek penting dalam penulisan cerita yang aku notice adalah koherensi keseluruhan dari media cerita tersebut. Ini adalah indeks dari observasi yang aku lakukan dari media yang sempat aku konsumsi, kenapa berhasil (atau tidak) dalam media tersebut, dan hal-hal lain yang terkait.

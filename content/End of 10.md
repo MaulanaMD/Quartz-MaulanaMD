@@ -3,7 +3,7 @@ title: Kontribusi pada Project End of 10
 tags:
   - project
 ---
-![[Pasted image 20250606185115.png]]
+![[end-of-10.png]]
 
 # Kontribusi pada Project End of 10
 

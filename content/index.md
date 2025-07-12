@@ -43,15 +43,7 @@ Aktivitas blogging bisa diakses di laman blog **paper.wf**, layanan blog terfede
 
 ### Kategori Laman (via `tags`)
 
-`tags` di bawah bisa dicari dengan menggunakan fitur *search bar*.
-
-- `#blog` dan `#opini` untuk artikel bergaya blog - kedepannya artikel-artikel seperti ini akan diubah menjadi entri *digital garden* dan didekomisikan.
-- `#portofolio` untuk unggahan *portfolio* pribadi.
-- `#publikasi` untuk publikasi ilmiah yang pernah aku lakukan.
-- `#konsep`, `#pemikiran`, dan `#sintesis` untuk entri *digital garden*.
-- `#journal` untuk entri jurnal harian. ***(baru!)***
-
-Selain itu, kamu bisa juga mencari artikel dengan kata kunci yang diinginkan.
+to be revamped.
 
 ### Catatan Lain
 

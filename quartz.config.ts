@@ -8,11 +8,12 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🌒 Maulana.md",
+    pageTitle: "🌒 maulana.md",
+    pageTitleSuffix: " - maulana.md"
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "null",
     },
     locale: "en-US",
     baseUrl: "maulanamd.my.id",
