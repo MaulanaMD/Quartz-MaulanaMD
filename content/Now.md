@@ -1,9 +1,14 @@
 ---
-title: 02. Sedang apa sekarang?
-alias: Sedang apa sekarang?
+title: 02. Now
+aliases:
+  - Sedang apa sekarang?
 tags:
   - meta
 ---
+# Now
+
+altenate title: Sedang apa sekarang?
+
 Laman aktivitas baru-baru ini. (harapannya) Diupdate secara berkala. Menggantikan laman `Sedang Apa` yang dulu sudah dibuat.
 
 - Aktif di ***Pinandhita 論理型***. Sekarang mulai geser tanggung jawab sedikit-sedikit dan lebih banyak jadi Team Manager.
