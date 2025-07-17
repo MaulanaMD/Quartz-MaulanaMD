@@ -91,8 +91,6 @@ const config: QuartzConfig = {
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages({
         colorScheme: "darkMode",
-        width: 1200,
-        height: 1200,
       }),
     ],
   },
