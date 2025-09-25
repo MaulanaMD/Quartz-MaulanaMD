@@ -1,0 +1,97 @@
+---
+title: Whipper (Aplikasi)
+alias: Whipper (Aplikasi)
+tags: guide
+description: Apa itu Whipper, dan bagaimana menggunakan aplikasi CD Ripper ini berdasarkan pengalaman pribadi.
+published: 2025-07-12
+---
+# Whipper (Aplikasi)
+
+***Whipper*** adalah aplikasi *CD Ripper* atau ekstraktor audio dari CD dan media semacamnya dengan antarmuka CLI *(command line interface)*. Aplikasi ini hanya bisa digunakan di sistem Linux—bisa dibilang aplikasi yang sepadan dengan ***ExactAudioCopy*** (sering disebut *EAC*) untuk sistem Windows dan ***X Lossless Decoder*** (sering disebut *XLD*) untuk sistem Mac OS. Dan sebagaimana EAC dan XLD, Whipper mengedepankan keakuratan ekstraksi data audio dengan menggunakan kecepatan putaran drive yang lebih rendah dan tidak mengandalkan cache audio yang ada di CD.
+
+## Appeal
+
+Secara pribadi, keutungan utama dari Whipper dibandingan EAC (yang bisa dijalankan di Linux dengan menggunakan Wine) adalah antarmuka cli-nya. Selama sudah mengatur konfigurasi awalnya, tinggal masukkan CD yang mau di-rip ke CD/DVD drive, buka terminal, ketik `whipper cd rip`, dan tinggal tunggu prosesnya (dengan beberapa catatan, ini akan dijelaskan nanti).
+
+Dibandingkan dengan aplikasi CD ripper yang native di linux, seperti fre:ac, ekstraksi Whipper jauh lebih akurat karena menggunakan `cdparanoia`, yang secara default menggunakan sistem *read and copy* dalam ekstraksi data, kemampuan untuk mengatur offset baca dari CD/DVD drive, dan kecepatan putaran yang lebih lambat—kecepatan putaran CD dari whipper biasanya mentok di bawah 10x, sedangkan CD ripper seperti fre:ac biasanya bisa sampai 70-100x. Selain itu, Whipper juga secara otomatis membuat file `.log` dan `.cue` dari CD yang diekstrak, yang masing-masing berfungsi sebagai catatan atau bukti dari bagaimana proses ekstraksi dilakukan (sehingga bisa dikalibrasi atau dicek seberapa akurat pengaturan yang digunakan), dan *cuesheet*, *image* dari CD yang diekstrak yang menunjukkan posisi bit data per track yang ada di dalam CD.
+
+## Weakness
+
+Selama penggunaan sejauh ini, aku merasa Whipper agak kesulitan untuk mengekstrak CD yang “bermasalah”. Ketika kecepatan baca turun drastis (biasanya terlihat ketika progress copy ataupun check nyandet dalam waktu yang lama), ini biasanya menunjukkan ada yang bermasalah dalam proses ekstraksi, yang besar kemungkinan ada di CD yang sedang dirip, seperti kotor atau baret. Di EAC, misal (dari pengalaman pribadi), solusinya tinggal keluar dari proses rip dan rip ulang track yang bermasalah satu per satu sampai CRC/checksum antara read and copy sama, selama *cuesheet* sudah dibuat di awal proses ripping dengan benar. Ini tidak bisa dilakukan di Whipper, karena proses ripping dimulai dari awal dengan membaca ulang mapping CD, dan berdasarkan penjelasan yang aku dapat dari kawan di salah satu skena *private tracker* musik, ini memang kelemahan dari tool `cdparanoia` yang digunakan oleh Whipper. Perbandingan dua tes yang aku lakukan untuk mengecek ulang apakah masalah ini ada bisa dilihat di [[whipper-comp|sini]]. Untuk CD yang mengalami masalah seperti ini, saran terbaikku adalah mencoba ripping menggunakan EAC via Wine.
+
+## How to use
+
+Whipper tersedia di distro-distro umum, seperti Debian (dan derivatnya), Fedora, Arch,, Gentoo, dll. Daftar lengkapnya bisa dilihat di [laman github Whipper](https://github.com/whipper-team/whipper?tab=readme-ov-file#package)).
+
+### Config
+
+Setelah memasang Whipper di perangkat, langkah pertama adalah memeriksa caching behavior dari drive yang kamu gunakan. Masukkan audio CD yang kamu punya ke dalam drive, buka terminal, dan jalankan `whipper drive analyze` setelah CD berhasil dimount oleh sistem. Setelah perintah tersebut selesai, dan info ini keluar sebagai hasil, kamu bisa lanjut ke langkah selanjutnya.
+
+```bash title="whipper drive analyze"
+INFO:whipper.command.drive:cdparanoia can defeat the audio cache on this drive  
+INFO:whipper.command.drive:adding drive cache behaviour to configuration file
+```
+
+Selanjutnya, kamu perlu mengatur kalibrasi offset drive yang digunakan. Jalankan `whipper drive list` untuk menampilkan merk dan model drive yang terbaca oleh sistem, dan cek nilai offset yang ada pada daftar yang dimiliki oleh AccurateRip di [sini](http://accuraterip.com/driveoffsets.htm).
+
+```bash title="whipper drive list" {2}
+drive: /dev/cdrom, vendor: Optiarc , model: DVD RW AD-7560A , release: D802  
+      Configured read offset: 6  
+      Can defeat audio cache: True
+```
+
+Di contoh ini, aku sudah menambahkan offsetnya, tapi harusnya ketika Whipper belum dikonfigurasi line yang dihighlight nilainya berbeda, atau tidak ada sama sekali. Tapi kita mendapat model drive yang aku gunakan, *Optiarc DVD RW AD-7560A*. Ketika dicari di daftar AccuRip…
+
+![[accurip-drive-list.png]]
+
+Nilai yang tertera untuk read offset adalah ***+6***. Nilai ini bisa berbeda dengan model drive yang lain, jadi pastikan nomor seri model yang dicari dan vendor/merk sesuai.
+
+Setelah ini, sunting file konfigurasi whipper, yang ada di `~/.config/whipper/whipper.conf` dengan text editor yang biasa kamu gunakan, dan masukkan line `read_offset = %%` di bawah entri drive yang sudah dibuat oleh Whipper secara otomatis, dan ganti `%%` dengan nilai yang didapat dari daftar sebelumnya. Untuk nilai offset positif, cukup masukkan nilainya saja (tanpa `+`), sedangkan untuk nilai offset negatif, masukkan juga tanda `-`.
+
+```INI title="whipper.conf" {6}
+[drive:Optiarc%20%3ADVD%20RW%20AD-7560A%20%3AD802]  
+vendor = Optiarc  
+model = DVD RW AD-7560A  
+release = D802  
+defeats_cache = True  
+read_offset = 6  
+  
+[whipper.cd.rip]  
+unknown = True  
+output_directory = ~/Music/whipper
+```
+
+Simpan perubahan yang kamu buat, dan konfigurasi Whipper sudah selesai!
+
+### Actually ripping stuff
+
+Setelah memasukkan CD yang ingin dirip, jalankan `whipper cd rip` di terminal setelah drive berhasil dimount. Kalau CD yang kalian masukkan ternyata bukan *pressed CD*, atau proses produksinya lewat *burning* (dengan CD/DVD-ROM, bukan lewat proses industrial yang menggunakan sistem *press* seperti halnya piringan hitam—lebih lanjut: [wikipedia:Compact disc manufacturing](https://en.wikipedia.org/wiki/Compact_disc_manufacturing)), Whipper akan keluar setelah memberikan warning untuk menggunakan flag `--cdr`. Kalian bisa mengulang proses ekstraksi dengan menggunakan command `whipper cd rip --cdr`.
+
+Whipper agak berbeda dengan CD Ripper lainnya dimana Whipper bergantung kepada entri database ***MusicBrainz*** untuk mengisi metadata lagu dan album—kalau tidak ada entri yang sesuai, Whipper akan mencoba mencari album yang “cocok” di ***FreeDB*** berdasarkan jumlah lagu dan durasinya, tapi biasanya hasil pencarian nggak akan sesuai dengan CD yang kamu punya. Secara default Whipper akan menampilkan prompt untuk mengkonfirmasi apakah data yang dicari, ketika tidak ada entri MusicBrainz yang sesuai, sesuai dengan CD atau tidak, dan jika tidak, apakah ingin melanjutkan proses ekstraksi tanpa menggunakan metadata. Jika dilanjutkan, informasi track lagu akan terisi dengan `Unknown *` untuk judul, artist, album, dan album artist. 
+
+Sebelum itu semua, Whipper akan menghasilkan disc id untuk MusicBrainz, dan jika tidak ada entri album yang sesuai, akan membuat tautan MusicBrainz yang bisa kamu buka untuk membuat dan mengisi entri rilisan yang sesuai. Tapi proses ripping akan terus dilanjutkan, jadi kalau kamu ingin mengisi entri MusicBrainz terlebih dahulu, lebih baik keluar dari whipper dengan menekan `Ctrl+Shift+C` di terminal.
+
+![[whipper-musicbrainz-lookup.png]]
+
+Untuk memastikan Whipper bisa mengambil metadata yang sesuai, kamu memerlukan akun MusicBrainz untuk mengedit entri di sana. Ketika keluar prompt seperti di atas, buka link yang dibuat oleh Whipper, dan masuk ke dalam akun MusicBrainz kalau belum. Paling mudahnya kalian bisa mencari judul album yang akan diekstrak.
+
+![[musicbrainz-lookup.png]]
+
+Untuk contoh ini, aku menggunakan CD Single kedua Fujita Kotone dari Hatsuboshi Gakuen, *Yellow Big Bang!*, jadi judul itu yang aku masukkan.
+
+![[musicbrainz-album-found.png]]
+
+Kalau album yang kalian ekstrak punya entri di MusicBrainz, akan keluar hasil seperti ini. Pilih CD album yang sesuai (di contoh ini cuma ada CD 1), dan klik `Attach CD TOC`. Kalian akan masuk ke halaman edit entri dari MusicBrainz, dan karena kalian cuma menambahkan Disc ID, langsung submit saja informasi yang ada di halaman tersebut tanpa mengubah apa-apa. Karena informasi yang ada sumbernya dibuat otomatis oleh Whipper, tidak perlu mencentang `Make all edits votable` di bagian `Edit note`. Kalau tidak ada entri album yang sesuai, kalian perlu membuat entri album baru dengan memasukkan metadata album yang sesuai. ([[todo]])
+
+Kalau Whipper berhasil menemukan entri MusicBrainz yang cocok, proses ripping akan dimulai dengan membaca mapping CD atau TOC, sebelum mulai mengekstrak track yang berhasil dibaca satu per satu. Dalam proses ekstraksi ini, Whipper akan membaca dan membuat nilai CRC sebelum kemudian memulai proses ekstraksi dan membandingkan checksum CRC dari proses baca dan proses ekstraksi. Kalau checksum tersebut hasilnya sama, proses berlanjut ke track selanjutnya, dan jika tidak, Whipper akan memulai lagi proses read and copy hingga total 5 kali dalam satu proses ripping—kalau batas 5 kali ekstrak ulang ini tercapai, yang bisa diatur dengan menambahkan flag `-r %%` atau `--max-retries %%` saat menjalankan `whipper cd rip`, Whipper akan keluar dengan sendirinya.
+
+Whipper akan menampilkan `rip quality` setelah track berhasil diekstrak, yang menunjukkan seberapa bagus ekstraksi dari `cdparanoia` sesuai dengan informasi dari CD. Kalau tiba-tiba persentasenya ngedrop, bisa jadi CD di bagian yang bersangkutan mengalami defect atau bermasalah, entah kotor ataupun baret. Jika ripping diulang berkali-kali dan masih tetap gagal (atau bahkan track lain juga ekstraksinya jadi lebih buruk), saranku adalah melakukan ripping dengan EAC seperti yang sudah aku sebutkan sebelumnya.
+
+Ketika ripping berhasil sepenuhnya, Whipper akan otomatis membuat file-file ini di folder hasil, selain file `.flac` hasil ekstraksi: file *cuesheet* dengan format `.cue` dan `.toc`, file playlist dengan format `.m3u8`, dan file log dengan format `.log`. Kamu bisa mengunggah file .log yang dihasilkan ke ***[Cambia LogTools](https://logs.musichoarders.xyz/)***, *logchecker* online yang dijalankan oleh ***MusicHoarder Wiki***, atau dengan menggunakan tool CLI `logchecker` yang digunakan oleh Cambia, yang dibuat oleh komunitas *private tracker* ***Orpheus*** yang bisa kamu cek di [sini](https://github.com/OPSnet/Logchecker). Sepengetahuanku, tool *Log Scoring* yang mendukung Whipper hanya `logchecker` dari Orpheus saja—kebanyakan private tracker atau music-sharing community hanya mendukung EAC dan XLD. *Log Scoring* ini bisa kamu gunakan untuk mengecek apakah konfigurasi yang kamu gunakan untuk ripping sudah benar atau tidak, dan baik Cambia maupun logchecker menampilkan keterangan konfigurasi apa saja yang tidak diatur dengan benar. Untuk Whipper sendiri poin yang bisa salah adalah offset read, sedangkan konfigurasi yang lainnya sudah diatur secara default—kecuali kamu menggunakan flag `-x` atau `--force-overread`, hasil yang didapat seharusnya bisa optimal.
+
+Sebagai tambahan, Whipper memungkinkan untuk mengunduh serta memasang album art dari database MusicBrainz dengan flag `-C` atau `-cover-art`, yang diikuti dengan tiga opsi:  `file,embed,complete`, masing-masing berarti menyimpan album art sebagai file .jpg di dalam folder, di-embed/masukkan ke dalam tiap file track, atau keduanya.
+
+> [!note]
+> Laman github Whipper menyebutkan kalau Whipper memerlukan Pillow (`python3-pil`) supaya opsi embed dan complete berfungsi—Pillow sendiri adalah library *image processing* python. Tapi berdasarkan pengalaman pribadi, Whipper tidak mencantumkan Pillow sebagai dependency tambahan saat instalasi via repositori distro, dan laman githubnya hanya mencantumkan Pillow (dan docutils) sebagai dependencies untuk instalasi via building from source. Selain itu, meskipun dua dependencies ini sudah aku install, Whipper tidak secara otomatis menggunakan mereka; waktu kemarin mencoba menggunakan flag `-C complete`, Whipper cuma mengunduh `cover.jpg` tanpa memasang gambarnya di dalam file track, jadi ***secara praktis yang bisa berjalan dengan lancar dari awal cuma flag `-C file` saja***. Kamu bisa menggunakan aplikasi *audio tagger* kalau masih ingin file track albumnya memiliki gambar cover ter-embed juga.
+
+Jadi, sebagai contoh, kalau ingin mengekstrak CD-r sekaligus mengunduh album art untuk di-embed di file track dan di file gambar terpisah (untuk alasan kompatibilitas), command yang dijalankan adalah `whipper cd rip --cdr --cover-art complete`.

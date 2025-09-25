@@ -1,5 +1,0 @@
----
-tags:
-  - konsep
-draft: "true"
----

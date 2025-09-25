@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "maulanamd.my.id",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/private"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
