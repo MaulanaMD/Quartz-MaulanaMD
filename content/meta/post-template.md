@@ -1,7 +1,7 @@
 ---
 title: {{title}}
-alias: {{title}}
 tags:
+  - 
 draft: true
 ---
 # {{title}}
