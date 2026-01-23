@@ -1,4 +1,4 @@
 ---
 title: self
 ---
-Laman terkait diri.
+Laman yang menyangkut hal-hal yang lebih personal.
