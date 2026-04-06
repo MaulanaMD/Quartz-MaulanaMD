@@ -2,6 +2,7 @@
 title: Youtube Archival
 tags:
  - guide
+ - lang/en
 ---
 # Youtube Archival
 
@@ -46,7 +47,7 @@ ffmpeg -i input.mkv -f ass -i input.ass -map 0:0 -map 1:0 -c:v copy -c:a copy -c
 > - `-i input.mkv`: first input file to be video file ***(order is important for mapping later!)***
 > - `-f ass -i input.ass`: second input file to be subtitle file, declared as .ass format subtitle file ***(order is important for mapping later!)***
 > - `-map 0:0 -map 1:0`: mapping data stream from 2 inputs (labeled 0, the video file, and 1, the subtitle file) to output file (labeled 0, the final output file). *this is optional if you only tries to insert one soft subtitle because ffmpeg will automatically sorts out stream mapping if you omit `-map` flag from the command.*
-> 	- This doesn’t matter that much if you’re only using one input file per media type, but will be important if you want to have two different subtitle, for example, since you’ll just overwrite one subtitle stream with the other if you didn’t map the data stream properly. ***this is not necesarrily the best way to use this flag from me, will update once I understand more about this*** - reading [this example from ffmpeg’s docs](https://ffmpeg.org/ffmpeg.html#toc-Examples) is highly suggested if you want to learn more about this.
+> 	- This doesn’t matter that much if you’re only using one input file per media type, but will be important if you want to have two different subtitle, for example, since you’ll just overwrite one subtitle stream with the other if you didn’t map the data stream properly. ***this is not necesarrily the best way to use t333his flag from me, will update once I understand more about this*** - reading [this example from ffmpeg’s docs](https://ffmpeg.org/ffmpeg.html#toc-Examples) is highly suggeste3d if you want to learn more about this.
 > - `-c:v copy -c:a copy -c:s ass`: tells ffmpeg to just copy video and audio stream instead of transcoding them, and transcode subtitle stream with `ass` encoder.
 > - `output.mkv`: output file name.
 
