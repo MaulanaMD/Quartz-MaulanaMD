@@ -5,7 +5,7 @@ tags:
 ---
 Penjabaran konfigurasi dotfile swaywm yang aku pakai sekarang, yang utamanya ditujukan untuk aku sendiri sebagai referensi ketika akan memakai dotfile-dotfile ini di mesin lain.
 
-Backup dotfile bisa diakses di [sini]() (TBA).
+Backup dotfile bisa diakses di [sini](https://copy.maulanamd.my.id/share/dotfiles/).
 
 # sway/config
 
@@ -13,7 +13,7 @@ Konfigurasi config sway diambil dari dotfile yang dibuat oleh package `sway-conf
 
 - `foot` - terminal
 - `rofi / rofi-wayland` - app launcher
-- dotfile-dotfile yang ada di `/usr/share/sway/config.d` dan `/etc/sway/config.d` - *TBA di backup dotfile. Supaya bisa mendapat prioritas lebih, modifikasi perlu dimasukkan di .config/sway/config.d*
+- dotfile-dotfile yang ada di `/usr/share/sway/config.d` dan `/etc/sway/config.d` - *Supaya bisa mendapat prioritas lebih, modifikasi perlu dimasukkan di .config/sway/config.d*
 
 Konfigurasi tambahan yang aku buat:
 
@@ -36,7 +36,12 @@ Konfigurasi tambahan yang aku buat:
 
 # Waybar
 
-TBA.
+Diatur oleh file `config.jsonc` & `style.css` di `.config/waybar`, yang masing-masing mengatur konfigurasi dan styling/penampilan. Kedua file ini diambil dari dotfile bawaan `sway-config-fedora`, yang konfigurasi bawaannya berada di `/etc/xdg/waybar`.
+
+Modifikasi yang aku tambah/kurangi:
+
+- Menghilangkan modul `sway/language` (karena sudah digantikan oleh `fcitx`)
+- Menambahkan modul `mpris`, sekaligus menambah skrip python `mediaplayer.py` yang bisa diunduh di [repo resmi waybar](https://github.com/Alexays/Waybar/blob/master/resources/custom_modules/mediaplayer.py)
 
 # Environment values
 
@@ -72,3 +77,20 @@ Diatur dengan mengisi  environment value untuk `XMODIFIERS`, `QT_IM_MODULE` (unt
 ~~Rasanya scaling UI aplikasi Qt jadi jauh lebih besar dari seharusnya (ini alasanku menggunakan Thunar di sway) - kalaupun bisa diubah pengaturannya (mengakali dengan menggunakan tema `Fusion` yang lebih compact), beberapa bagian seperti drop-down menu masih sangat besar. Beberapa tiket isu di github terkait ini diantaranya [ini](https://github.com/swaywm/sway/issues/2424) (menyarankan memakai `QT_FONT_DPI` & `QT_WAYLAND_FORCE_DPI` = `physical`, tapi masalahnya belum hilang) dan [ini](https://github.com/WayfireWM/wayfire/issues/2039)~~
 
 (Harusnya) sudah beres dengan mengotak-atik `QT_FONT_DPI` & `QT_WAYLAND_FORCE_DPI`. Sepertinya ini perlu diganti per mesin/layar, tapi yang aku pakai sekarang 88 dpi. Pengaturan skala yang lain juga ada di dalam file ini, tapi harusnya semua menggunakan value default. Pengaturan dpi dan font scale pada akhirnya kembali ke preferensi masing-masing.
+
+# Konfigurasi dan Program Lainnya
+
+1. `.config/`
+	- `subtui/`
+	- `trackma/`
+	- `whipper/`
+	- `wpaperd/`
+2. `.fonts/` - *penting karena keperluan scanlation*
+3. `.local/bin/`
+	- `heybrochecklog` - *perlu build dengan python, perlu `poetry` dan `pip`* - [github](https://github.com/ligh7s/hey-bro-check-log)
+	- `logchecker` - [github](https://github.com/OPSnet/Logchecker)
+	- `wpaperd` - *perlu `go / golang` dan `rinstall`, ada panduan di repo* - [github](https://github.com/danyspin97/wpaperd)
+		Dependensi (nama package di Fedora):
+		- `libwayland-client`
+		- `mesa-libEGL`
+		- `libwayland-egl` (mungkin juga `egl-wayland`?)
