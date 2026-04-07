@@ -3,9 +3,12 @@ title: Sway Config
 tags:
   - self
 ---
+
+![[sway-preview1.png]]
+
 Penjabaran konfigurasi dotfile swaywm yang aku pakai sekarang, yang utamanya ditujukan untuk aku sendiri sebagai referensi ketika akan memakai dotfile-dotfile ini di mesin lain.
 
-Backup dotfile bisa diakses di [sini](https://copy.maulanamd.my.id/share/dotfiles/).
+Backup dotfile bisa diakses di [sini](https://copy.maulanamd.my.id/share/dotfiles/) (unduh folder sebagai zip di pojok kanan bawah UI copyparty).
 
 # sway/config
 
@@ -78,11 +81,10 @@ Diatur dengan mengisi  environment value untuk `XMODIFIERS`, `QT_IM_MODULE` (unt
 
 (Harusnya) sudah beres dengan mengotak-atik `QT_FONT_DPI` & `QT_WAYLAND_FORCE_DPI`. Sepertinya ini perlu diganti per mesin/layar, tapi yang aku pakai sekarang 88 dpi. Pengaturan skala yang lain juga ada di dalam file ini, tapi harusnya semua menggunakan value default. Pengaturan dpi dan font scale pada akhirnya kembali ke preferensi masing-masing.
 
-# Konfigurasi dan Program Lainnya
+# Konfigurasi dan program lainnya di dalam backup dotfile
 
 1. `.config/`
 	- `subtui/`
-	- `trackma/`
 	- `whipper/`
 	- `wpaperd/`
 2. `.fonts/` - *penting karena keperluan scanlation*
@@ -94,3 +96,5 @@ Diatur dengan mengisi  environment value untuk `XMODIFIERS`, `QT_IM_MODULE` (unt
 		- `libwayland-client`
 		- `mesa-libEGL`
 		- `libwayland-egl` (mungkin juga `egl-wayland`?)
+
+![[sway-preview2.png]]
