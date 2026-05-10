@@ -7,7 +7,7 @@ Palet warna pastel yang dibuat dari dasar warna Arona dan Plana, “maskot” Bl
 
 Palet warna ini dioptimasi untuk tema warna gelap, tapi juga bisa digunakan untuk tema warna terang, seperti yang digunakan di laman web ini.
 
-Atribusi: Palet warna ini dibuat oleh Maulana M. D. <maulanamd@proton.me>, dengan rekognisi kepada Sven Greb <development@svengreb.de> / Arctic Ice Studio <development@arcticicestudio.com> / Nord <support@nordtheme.com> serta Nexon dan tim Blue Archive <https://bluearchive.nexon.com/home>.
+Atribusi: Palet warna ini dibuat oleh Maulana M. D. (<maulanamd@proton.me>), dengan rekognisi kepada Sven Greb (<development@svengreb.de>) / Arctic Ice Studio (<development@arcticicestudio.com>) / Nord (<support@nordtheme.com>) serta Nexon dan tim pengembang Blue Archive (<https://bluearchive.nexon.com/home>).
 
 # Dusk
 
