@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🌒 maulana.md",
+    pageTitle: "maulana.md",
     pageTitleSuffix: " - maulana.md",
     enableSPA: true,
     enablePopovers: true,
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#e3e7e9", // main page background - sky2
+          lightgray: "#69667f", // borders and divider lines - dusk4
+          gray: "#5c5d70", // muted text - dusk3
+          darkgray: "#505264", // main body text - dusk2
+          dark: "#444456", // header text - dusk1
+          secondary: "#69a5d3", // main accent, link - day3
+          tertiary: "#4c94cc", // hover state, visited link - day4
+          highlight: "b8d0e1", // text/block highlight - day1
+          textHighlight: "rgba(237, 100, 150, 0.4)", // markdown highlight - arc1
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#444456", // main page background - dusk1
+          lightgray: "#69667f", // borders and divider lines - dusk4
+          gray: "#e0cee7", // muted text, graph links, meta text - sky1
+          darkgray: "#fcfcfa", // main body text - sky3
+          dark: "#e3e7e9", // header text and icon - sky2
+          secondary: "#e3e7e9", // main accent (links, active graph node) - day3
+          tertiary: "#9fbfdc", // hover states and visited links - day2
+          highlight: "rgba(105, 165, 211, 0.15)", // text/block highlight - day3 w/ opacity
+          textHighlight: "rgba(237, 100, 150, 0.4)", // markdown highlights - arc1 w/ opacity
         },
       },
     },
