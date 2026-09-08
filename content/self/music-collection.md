@@ -18,7 +18,7 @@ Informasi yang ada di tiap bagian diantaranya:
 
 Karena aku cuma beli rilisan yang (sekiranya) aku bakal/pasti suka, aku nggak akan menulis rating atau ranking dari rilisan tersebut. Sebagai gantinya, impresi atau catatan terkait rilisan akan menyebutkan titik kuat rilisan dan apakah kamu bakal suka atau tidak jika kamu suka musik dengan genre tertentu.
 
-Semua album fisik yang aku punya secepat mungkin dirip menggunakan [[whipper]]; ketika ada masalah sync check & copy (besar kemungkinan gara-gara DVD drive yang aku punya sekarang agak lemah optiknya di posisi tengah-tengah CD), baru aku rip ulang menggunakan ExactAudioCopy. Lagi, karena salah satu tujuan koleksi laguku sekarang adalah pengarsipan, jadi sebisa mungkin copy yang aku dapatkan adalah yang 1:1 dari apa yang disediakan oleh artis dan komposernya.
+Semua album fisik yang aku punya secepat mungkin di-rip menggunakan [[whipper]]; ketika ada masalah sync check & copy (besar kemungkinan gara-gara DVD drive yang aku punya sekarang agak lemah optiknya di posisi tengah-tengah CD), baru aku rip ulang menggunakan ExactAudioCopy. Lagi, karena salah satu tujuan koleksi laguku sekarang adalah pengarsipan, jadi sebisa mungkin copy yang aku dapatkan adalah yang 1:1 dari apa yang disediakan oleh artis dan komposernya.
 
 ---
 
@@ -153,3 +153,27 @@ Epic-type music yang ngepas banget sebagai puncak dari main story 1 Arcaea. Eksp
 - Jenis album: *Album - Physical (CD Jewel case)*
 - Tanggal rilis: 2012.12.30 (Comiket 83)
 - Tanggal beli: 2025.12.xx
+
+## Jazz Archive - kanmi
+
+![[album-jazz-archive.jpg|400]]
+
+- Jenis album: *Album - Physical (CD Jewel case)*
+- Tanggal rilis: 2024.04.28
+- Tanggal beli: 2026.03.xx
+
+## Jazz Archive 2 - kanmi
+
+![[album-jazz-archive-2.jpg|400]]
+
+- Jenis album: *Album - Physical (CD Jewel case)*
+- Tanggal rilis: 2024.08.03
+- Tanggal beli: 2026.03.xx
+
+## Jazz Archive 3 - kanmi
+
+![[album-jazz-archive-3.jpg|400]]
+
+- Jenis album: *Album - Physical (CD Jewel case)*
+- Tanggal rilis: 2024.12.29
+- Tanggal beli: 2026.03.xx
