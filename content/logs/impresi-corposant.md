@@ -1,0 +1,10 @@
+---
+tags:
+  - logs
+  - lang/id
+draft: true
+---
+- Story beat mobage MICA (yang bisa aku inget cuma GFL dan Exilium, PNC waktu dulu main masih awal sekali jadi belum sempat merasakan eskalasi konfliknya) itu sama, though not as something bad. Doing something true and tested (dan dalam kasus ini karena relasinya sebagai not-so-far-sequel) itu sah-sah saja.
+- Finally masuk ke cerita “penting” Exilium! Sama seperti Singularity (GFL), menandakan eskalasi konflik dan stake dari cerita yang sedang berjalan, serta pecahnya status quo kubu Commander dan musuh (spoiler). Mungkin akhirnya bisa dibuat seperti ini karena kalau merunut waktu rilisnya, Corposant rilis setelah Convolutional Kernel rilis di GFL CN (sekaligus mati suri server CN), jadi bisa memasukkan referensi kontinuitas GFL ke Exilium yang lebih jelas daripada sekedar “Commander menjadi manusia biasa di Yellow Zone setelah GFL 1 selesai”
+- Semoga chapter per major story event bisa jadi lebih banyak, karena di Corposant ada 3 story chapter (1 - 1.5 - 2), yang kalau nggak salah juga seperti di Singularity ya? hanya saja di GFL lebih terasa kompleks karena ada upgrade interaktifitas, yang sebelumnya sama dengan pembagian main story kemudian ditambah interactive map dan story node.
+- Meskipun aku bilang ini cerita “penting” Exilium, pada akhirnya peran Corposant masih sebagai prolog, atau mungkin Chapter 1 dari eskalasi keseriusan konflik. Peran utamanya adalah menandakan kalau fokus ceritanya akhirnya mulai meluas, dari yang sebelumnya hanya berhadapan dengan Girard (yang perannya kurang lebih seperti Sangvis Ferri), akhirnya mulai berhadapan dengan greater-scope villain Paradeus dan, yang lebih penting lagi, Rossartrist Government. Bagaimana menunjukkan ini? Dimana main story event sebelumnya Commander dan sekutnya bisa memenuhi obyektif mereka, di akhir cerita Corposant Commander gagal mencapai obyektif yang diberikan di awal cerita dan malah mengalami setback. Ini klasik story beat GFL mulai dari Singularity dan seterusnya.

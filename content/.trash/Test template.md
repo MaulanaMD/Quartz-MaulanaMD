@@ -1,0 +1,6 @@
+# Tanggal:
+
+{{date}}
+
+# Tangkapan layar
+
